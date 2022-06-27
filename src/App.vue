@@ -1,21 +1,15 @@
-<script setup>
-import { ref } from "vue";
-import TheLogo from "./components/TheLogo.vue";
-import HelloWorld from "./components/HelloWorld.vue";
-import Patient from "./components/Patient.vue";
 
-
-
-</script>
 
 <template>
   <div class="max-w-6xl mx-auto">
     <TheLogo />
-    <Patient />
-    <HelloWorld />
+    <!-- <router-link :to="{name: 'About'}">About</router-link> -->
+    <router-view></router-view>
   </div>
 </template>
-
+<script setup>
+import TheLogo from "./components/TheLogo.vue";
+</script>
 <style>
 #app {
   -webkit-font-smoothing: antialiased;

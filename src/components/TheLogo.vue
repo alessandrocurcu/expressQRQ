@@ -1,7 +1,10 @@
 <template>
-  <p class="inline-flex items-center py-4 text-2xl tracking-wide uppercase text-slate-700">
-    <TheLogoImg />
-    <span class="ml-1 font-light">uni</span><span class="font-semibold">sono</span>
+  <p class="inline-flex py-4 tracking-wide uppercase text-slate-700">
+    <div class="flex items-center text-2xl">
+      <TheLogoImg />
+      <span class="ml-1 font-light">uni</span><span class="font-semibold">sono</span>
+    </div>
+    <span class="text-[10px] font-light text-slate-700 ml-1 mt-3.5">pre-alpha</span>
   </p>
 </template>
 
