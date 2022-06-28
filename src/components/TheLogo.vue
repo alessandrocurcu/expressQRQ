@@ -1,5 +1,5 @@
 <template>
-  <p class="inline-flex py-4 tracking-wide uppercase text-slate-700">
+  <p class="inline-flex py-8 -mx-2 tracking-wide uppercase text-slate-700">
     <div class="flex items-center text-2xl">
       <TheLogoImg />
       <span class="ml-1 font-light">uni</span><span class="font-semibold">sono</span>

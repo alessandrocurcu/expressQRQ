@@ -1,10 +1,13 @@
 
 
 <template>
-  <div class="max-w-6xl mx-auto">
+  <div class="max-w-6xl px-8 mx-auto">
     <TheLogo />
     <!-- <router-link :to="{name: 'About'}">About</router-link> -->
-    <router-view></router-view>
+    <div class="mt-16">
+      <router-view>
+      </router-view>
+    </div>
   </div>
 </template>
 <script setup>
