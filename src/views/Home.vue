@@ -1,7 +1,8 @@
 <template>
-  <div v-if="result" class="grid grid-cols-12">
-    <div class="overflow-y-auto bg-white col-span-full">
+  <div v-if="tableData" class="grid grid-cols-12">
+    <div class="overflow-y-auto col-span-full">
       <dx-data-grid
+        class="text-sm"
         :data-source="tableData"
         :columns="columns"
         :allow-column-reordering="true"
@@ -25,7 +26,7 @@
       </template>
       <template #tableTitle>
         <div class="flex items-center">
-          <h2 class="mr-2 text-3xl font-light text-slate-700">Patients</h2>
+          <h2 class="mr-2 text-2xl text-gray-700">Patients</h2>
         </div>
       </template>
       <template  #action>
@@ -71,11 +72,13 @@
     DxPager,
     DxPaging,
   } from "devextreme-vue/data-grid";
+  import patients from '@/patients.json';
   const baseUrl = 'http://hapi.fhir.org/baseR4';
   const result = ref(null);
-  const tableData = ref([]);
+  const tableData = ref(null);
   const router = useRouter();
   const statuses = ['Idle', 'Waiting', 'Processing'];
+  
   const columns = computed(() => {
     return [
       {
@@ -123,20 +126,22 @@
     );
   };
   onMounted(async () => {
-    const { isFetching, error, data } = await useFetch(baseUrl + '/Patient?_format=json').json();
-    result.value = data.value.entry.map(el => {
-      const max = Math.floor(Math.random() * 8);
-      return {
-        id: el.resource.id, 
-        name: el.resource.name?.[0]?.family ?? '',
-        status: statuses[Math.floor(statuses.length * Math.random())],
-        exercises:  {
-          completed: Math.floor(Math.random() * max),
-          total: max
-        }
-      }
-    });
-    tableData.value = [...tableData.value, ...result.value]
+    // const { isFetching, error, data } = await useFetch(baseUrl + '/Patient?_format=json').json();
+    // result.value = data.value.entry.map(el => {
+    //   const max = Math.floor(Math.random() * 8);
+    //   return {
+    //     id: el.resource.id, 
+    //     name: el.resource.name?.[0]?.family ?? '',
+    //     status: statuses[Math.floor(statuses.length * Math.random())],
+    //     exercises:  {
+    //       completed: Math.floor(Math.random() * max),
+    //       total: max
+    //     }
+    //   }
+    // });
+    // tableData.value = [...tableData.value, ...result.value]
+    tableData.value = patients;
+    console.log('ciao', tableData.value)
   })
 
   let selectRow = (e) => {

@@ -1,10 +1,9 @@
 <template>
-  <p class="inline-flex py-8 -mx-2 tracking-wide uppercase text-slate-700">
-    <div class="flex items-center text-2xl">
+  <p class="inline-flex py-3 -ml-1 tracking-wide uppercase border-r pr-7 text-gray-700 border-gray-300">
+    <div class="flex items-center text-xl">
       <TheLogoImg />
       <span class="ml-1 font-light">uni</span><span class="font-semibold">sono</span>
     </div>
-    <span class="text-[10px] font-light text-slate-700 ml-1 mt-3.5">pre-alpha</span>
   </p>
 </template>
 

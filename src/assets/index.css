@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dx-datagrid-header-panel {
+  /* margin-bottom: 4rem !important; */
+  @apply bg-gray-50;
+}
+
+.dx-toolbar {
+  @apply bg-gray-50;
+}
+
+.dx-datagrid-pager {
+  @apply bg-gray-50;
+}

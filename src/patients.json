@@ -1,0 +1,288 @@
+[
+  {
+    "id": "fcd16b15-8338-4cdb-83ad-27dc196493c8",
+    "name": "Brisa Sanders",
+    "joining_date": "2023-06-10T21:29:45.817Z",
+    "status": "Waiting",
+    "gender": "female",
+    "exercises": {
+      "completed": 4,
+      "total": 4
+    }
+  },
+  {
+    "id": "39456b43-93ed-4a58-a272-2b6a711a3b3a",
+    "name": "Tamara Wilson",
+    "joining_date": "2023-04-07T06:30:56.321Z",
+    "status": "Waiting",
+    "gender": "female",
+    "exercises": {
+      "completed": 2,
+      "total": 4
+    }
+  },
+  {
+    "id": "cba4e87b-5dda-42e9-8d08-3b7d92f41767",
+    "name": "Jamir Abdal",
+    "joining_date": "2023-02-12T17:24:54.534Z",
+    "status": "Waiting",
+    "gender": "male",
+    "exercises": {
+      "completed": 0,
+      "total": 4
+    }
+  },
+  {
+    "id": "79752663-4c30-4d28-8d17-911d565f4c88",
+    "name": "James Satchel",
+    "joining_date": "2022-08-24T01:55:37.094Z",
+    "status": "Waiting",
+    "gender": "male",
+    "exercises": {
+      "completed": 1,
+      "total": 4
+    }
+  },
+  {
+    "id": "1b7d5ede-bb23-4a8e-8e17-9ad557754ea1",
+    "name": "Judd Apotow",
+    "joining_date": "2022-07-01T23:05:24.736Z",
+    "status": "Idle",
+    "gender": "male",
+    "exercises": {
+      "completed": 0,
+      "total": 4
+    }
+  },
+  {
+    "id": "dddf17ee-651e-4c60-b41b-3a61209e384e",
+    "name": "Vicenta Christie",
+    "joining_date": "2022-08-29T15:57:15.377Z",
+    "status": "Idle",
+    "gender": "female",
+    "exercises": {
+      "completed": 3,
+      "total": 4
+    }
+  },
+  {
+    "id": "01996237-af81-4289-8019-56cafe00735d",
+    "name": "Arlie Chap",
+    "joining_date": "2023-06-13T20:17:00.708Z",
+    "status": "Processing",
+    "gender": "male",
+    "exercises": {
+      "completed": 2,
+      "total": 4
+    }
+  },
+  {
+    "id": "0772c52a-122f-4337-87cf-790d7730f294",
+    "name": "Karley Cuoco",
+    "joining_date": "2022-08-26T16:10:37.023Z",
+    "status": "Processing",
+    "gender": "male",
+    "exercises": {
+      "completed": 0,
+      "total": 4
+    }
+  },
+  {
+    "id": "4986ae5e-cb05-4598-88a0-3667733e4cda",
+    "name": "Carlie Kaufmann",
+    "joining_date": "2023-06-16T10:50:52.397Z",
+    "status": "Processing",
+    "gender": "male",
+    "exercises": {
+      "completed": 1,
+      "total": 4
+    }
+  },
+  {
+    "id": "4aa0926b-794b-4d40-a520-c403113171da",
+    "name": "Allene Sterling",
+    "joining_date": "2023-06-21T09:54:03.045Z",
+    "status": "Idle",
+    "gender": "female",
+    "exercises": {
+      "completed": 1,
+      "total": 4
+    }
+  },
+  {
+    "id": "5227524f-4fed-4387-bc7d-250186bb7fc7",
+    "name": "Willow Capaldi",
+    "joining_date": "2023-05-04T17:31:55.257Z",
+    "status": "Waiting",
+    "gender": "male",
+    "exercises": {
+      "completed": 1,
+      "total": 4
+    }
+  },
+  {
+    "id": "2c28c33b-d0f0-453e-ab98-244d3fa72fa4",
+    "name": "Pablo Estevez",
+    "joining_date": "2022-10-08T17:14:25.064Z",
+    "status": "Waiting",
+    "gender": "male",
+    "exercises": {
+      "completed": 0,
+      "total": 4
+    }
+  },
+  {
+    "id": "b7e51553-eba4-49f5-bccc-e1ffcb2fd9a5",
+    "name": "Malvina Giorgetti",
+    "joining_date": "2022-12-29T09:04:57.454Z",
+    "status": "Idle",
+    "gender": "female",
+    "exercises": {
+      "completed": 3,
+      "total": 4
+    }
+  },
+  {
+    "id": "468bb4a6-09ca-43aa-ae84-dede7b41ca02",
+    "name": "Axel Iglesias",
+    "joining_date": "2022-10-21T08:52:30.586Z",
+    "status": "Waiting",
+    "gender": "male",
+    "exercises": {
+      "completed": 1,
+      "total": 4
+    }
+  },
+  {
+    "id": "dd3e73b7-3e98-4b46-9037-5a7e5e406764",
+    "name": "Jaida Woodrow",
+    "joining_date": "2023-01-12T14:50:07.160Z",
+    "status": "Waiting",
+    "gender": "female",
+    "exercises": {
+      "completed": 2,
+      "total": 4
+    }
+  },
+  {
+    "id": "3ab69e9a-a441-4f22-b4d5-c7d122fda549",
+    "name": "Kaylin Jenner",
+    "joining_date": "2023-04-25T04:58:59.139Z",
+    "status": "Waiting",
+    "gender": "female",
+    "exercises": {
+      "completed": 0,
+      "total": 4
+    }
+  },
+  {
+    "id": "0f4ad4f7-8123-4fc8-9570-bf7309475565",
+    "name": "Jarret Richards",
+    "joining_date": "2023-03-17T03:34:21.227Z",
+    "status": "Processing",
+    "gender": "male",
+    "exercises": {
+      "completed": 1,
+      "total": 4
+    }
+  },
+  {
+    "id": "7228f3c8-663c-4c87-945e-c6e419f5fe3d",
+    "name": "Hanna Mason",
+    "joining_date": "2023-05-03T04:07:17.930Z",
+    "status": "Processing",
+    "gender": "female",
+    "exercises": {
+      "completed": 2,
+      "total": 4
+    }
+  },
+  {
+    "id": "c5ce37fa-0143-4e56-90d2-2d9a31c499b4",
+    "name": "Dana Carvey",
+    "joining_date": "2023-04-05T02:14:50.730Z",
+    "status": "Processing",
+    "gender": "female",
+    "exercises": {
+      "completed": 2,
+      "total": 4
+    }
+  },
+  {
+    "id": "8d16c0f9-ff50-4b00-9804-55188bb86d2c",
+    "name": "Antonina Sigismondi",
+    "joining_date": "2023-02-13T03:25:52.968Z",
+    "status": "Waiting",
+    "gender": "female",
+    "exercises": {
+      "completed": 0,
+      "total": 4
+    }
+  },
+  {
+    "id": "3ccd6f25-4bc4-4654-8e01-553bb81df3c7",
+    "name": "Rosemary Carlyle",
+    "joining_date": "2022-07-02T08:59:17.515Z",
+    "status": "Processing",
+    "gender": "female",
+    "exercises": {
+      "completed": 1,
+      "total": 4
+    }
+  },
+  {
+    "id": "d919bb18-2d22-418a-a34b-59adf6145358",
+    "name": "Howard Stern",
+    "joining_date": "2022-10-19T13:36:06.109Z",
+    "status": "Idle",
+    "gender": "male",
+    "exercises": {
+      "completed": 4,
+      "total": 4
+    }
+  },
+  {
+    "id": "f19d9a4d-60e7-4629-9fcb-b592ae881cda",
+    "name": "Vivianne Westwood",
+    "joining_date": "2023-02-06T12:23:24.382Z",
+    "status": "Waiting",
+    "gender": "female",
+    "exercises": {
+      "completed": 1,
+      "total": 4
+    }
+  },
+  {
+    "id": "e5f55679-88ac-4b7f-be82-a3fda897b425",
+    "name": "Zita Mylokupos",
+    "joining_date": "2022-07-09T00:26:33.995Z",
+    "status": "Idle",
+    "gender": "female",
+    "exercises": {
+      "completed": 1,
+      "total": 4
+    }
+  },
+  {
+    "id": "25d8a0ca-0a4d-42d3-927e-0281f48238d5",
+    "name": "Olin Arnalds",
+    "joining_date": "2022-07-27T22:20:00.471Z",
+    "status": "Processing",
+    "gender": "male",
+    "exercises": {
+      "completed": 3,
+      "total": 4
+    }
+  },
+  {
+    "id": "5a624af6-b2f7-4547-8a58-2c2af9892794",
+    "name": "Diego Silva",
+    "joining_date": "2022-07-17T05:40:37.999Z",
+    "status": "Idle",
+    "gender": "male",
+    "exercises": {
+      "completed": 0,
+      "total": 4
+    }
+  }
+]
