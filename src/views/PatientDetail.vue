@@ -13,6 +13,7 @@
         </div>
       </div>
       <dx-data-grid
+        style="width: calc(100vw - 358px);"
         class="text-sm"
         :data-source="tableData"
         :columns="columns"
