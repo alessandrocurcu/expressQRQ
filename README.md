@@ -1,15 +1,4 @@
-# Vite - Vue3, ESLint, and Prettier
-
-Vite starter template that includes:
-
-* Vue 3
-* ESLint
-* Prettier
-## How to Use
-
-```
-npx degit danielkellyio/vite-vue3-eslint-prettier [project-name]
-```
+# Vite - Vue3, Tailwind3, DevExtremev22, ESLint, Prettier
 ```
 npm install
 npm run dev
