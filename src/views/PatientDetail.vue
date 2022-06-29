@@ -26,7 +26,10 @@
         :hover-state-enabled="true"
         :row-alternation-enabled="false"
         @toolbar-preparing="onToolbarPreparing($event)"
+        @content-ready="contentReady"
+        @selection-changed="selectionChanged"
       >
+        <DxSelection mode="single"/>
         <DxMasterDetail
           :enabled="true"
           template="masterDetailTemplate"
@@ -97,6 +100,7 @@ import {
   DxPager,
   DxPaging,
   DxMasterDetail,
+  DxSelection,
 } from "devextreme-vue/data-grid";
 const baseUrl = 'http://hapi.fhir.org/baseR4';
 const router = useRouter();
@@ -106,6 +110,15 @@ const props = defineProps({
 })
 
 const patientFromJson = patients.find(patient => patient.id === props.id);
+
+const contentReady = e => {
+  if (!e.component.getSelectedRowKeys().length) { e.component.selectRowsByIndexes(0); }
+};
+
+const selectionChanged= e => {
+  e.component.collapseAll(-1);
+  e.component.expandRow(e.currentSelectedRowKeys[0]);
+};
 
 
 const patient = ref({

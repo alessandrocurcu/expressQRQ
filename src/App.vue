@@ -4,9 +4,9 @@
   <div class="flex flex-col h-full">
     <nav class="flex items-center px-8 bg-gray-200">
       <TheLogo />
-      <ul class="ml-8 space-x-10 text-sm font-medium text-gray-500">
-        <router-link class="inline-block px-2 py-4" :to="{name: 'Home'}">patients</router-link>
-        <router-link class="inline-block px-2 py-4" :to="{name: 'Questionnaires'}">questionnaires</router-link>
+      <ul class="flex items-center ml-8 space-x-10 text-sm font-medium text-gray-500">
+        <router-link class="inline-block px-2 py-4 border-b-2 border-transparent" :to="{name: 'Home'}">patients</router-link>
+        <router-link :class="{ disabledLink: true }" class="inline-flex items-center px-2 py-4 border-b-2 border-transparent" :to="{name: 'Questionnaires'}"><PadLock class="mr-2 text-lg leading-none" /> questionnaires</router-link>
       </ul>
       <DxDropDownButton
         class="ml-auto"
@@ -38,6 +38,7 @@
   import TheLogo from "./components/TheLogo.vue";
   import { ref } from 'vue';
   import DxDropDownButton from 'devextreme-vue/drop-down-button';
+  import PadLock from '@/components/PadLock.vue';
   // import DxToolbar from 'devextreme-vue/toolbar';
   // const toolbarItems = ref([
   //   {
@@ -67,6 +68,6 @@
 .router-link-active {
   @apply text-gray-900;
   @apply border-b-2;
-  @apply border-gray-900;
+  @apply border-gray-900 !important;
 }
 </style>
