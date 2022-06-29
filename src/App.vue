@@ -30,7 +30,7 @@
       </router-view>
     </div>
     <div class="pb-12 text-center">
-      <p class="text-sm font-light text-gray-500">Sbrex ©2022 - <span class="text-[10px]">pre-alpha 0.0.2</span></p>
+      <p class="text-sm font-light text-gray-500">Sbrex ©2022 - <span class="text-[10px]">pre-alpha 0.1.2</span></p>
     </div>
   </div>
 </template>
